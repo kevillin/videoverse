@@ -3,7 +3,8 @@
 Esse projeto é baseado em streamings de vídeo. Aqui, utilizamos até agora: React, Typescript, Eslint, Vite como Bundle.
 Além disso, vamos criar testes e a arquitetura MSC (model, service e controller) para melhor organização das camadas de Back-End.
 Para o Back-End, vamos usar o Node e fazer as requisições HTTP pelo ThunderClient.
-E, como banco de dados, optamos por um banco de dados noSQL (MongoDB)
+E, como banco de dados, optamos por um banco de dados noSQL (MongoDB).
+Vamos utilizar o Docker para conteinerização.
 
 
 ## Como rodar esse projeto no seu VSCode
@@ -33,3 +34,10 @@ Para rodar o Linter, dê o seguinte comando:
  - [MongoDB](https://www.mongodb.com/)
  - [ThunderClient](https://www.thunderclient.com/)
  - [Arquitetura MSC, o que é e por que usar? - Mariana Mohr](https://medium.com/@marianamohr/arquitetura-msc-o-que-%C3%A9-e-por-que-usar-42ad4cf19583)
+
+
+## Observação para a equipe
+
+- Falta criar dependencias do Docker;
+- .env
+- E as pastas de front e back não estão criadas ainda pois falta os arquivos dentro.
