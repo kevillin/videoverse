@@ -20,6 +20,12 @@ Vamos utilizar o Docker para conteinerização.
 Para usar esse projeto no seu VSCode, basta seguir esse passos:
 
 ```bash
+  cd backend/
+  npm install
+```
+
+```bash
+  cd frontend/
   npm install
 ```
 Depois de instalar todas as dependencias do projeto, você pode dar o seguinte comando que já abrirá uma aba no seu navegador automaticamente:
@@ -33,6 +39,13 @@ Para rodar o Linter, dê o seguinte comando:
 ```bash
   npm run lint
 ```
+
+Para rodar o Docker, vá para o diretório raiz e dê o seguinte comando:
+
+```bash
+  docker-compose up -d
+```
+
 ## Referências
 
  - [React](https://react.dev/)
@@ -42,10 +55,4 @@ Para rodar o Linter, dê o seguinte comando:
  - [MongoDB](https://www.mongodb.com/)
  - [ThunderClient](https://www.thunderclient.com/)
  - [Arquitetura MSC, o que é e por que usar? - Mariana Mohr](https://medium.com/@marianamohr/arquitetura-msc-o-que-%C3%A9-e-por-que-usar-42ad4cf19583)
-
-
-## Observação para a equipe
-
-- Falta criar dependencias do Docker;
-- .env
-- E as pastas de front e back não estão criadas ainda pois falta os arquivos dentro.
+ - [Docker](https://docs.docker.com/)
