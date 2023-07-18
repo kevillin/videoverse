@@ -1,28 +1,12 @@
 {
   "name": "videoverse",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "Esse projeto é baseado em streamings de vídeo. Aqui, utilizamos até agora: React, Typescript, Eslint, Vite como Bundle.\r Além disso, vamos criar testes e a arquitetura MSC (model, service e controller) para melhor organização das camadas de Back-End.\r Para o Back-End, vamos usar o Node e fazer as requisições HTTP pelo ThunderClient.\r E, como banco de dados, optamos por um banco de dados noSQL (MongoDB).\r Vamos utilizar o Docker para conteinerização.",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite --open",
-    "build": "tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.14",
-    "@types/react-dom": "^18.2.6",
-    "@typescript-eslint/eslint-plugin": "^6.1.0",
-    "@typescript-eslint/parser": "^6.1.0",
-    "@vitejs/plugin-react-swc": "^3.3.2",
-    "eslint": "^8.44.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.1",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.0"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
