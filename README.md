@@ -7,6 +7,14 @@ E, como banco de dados, optamos por um banco de dados noSQL (MongoDB).
 Vamos utilizar o Docker para conteinerização.
 
 
+# Equipe
+
+  - [Carlos Augusto](https://github.com/carlos-aug)
+  - [Pedro Gonçalves](https://github.com/pllsg96)
+  - [Isaque Almeida](https://github.com/isaquealmeida)
+  - [Kevillin Santos](https://github.com/kevillin)
+
+
 ## Como rodar esse projeto no seu VSCode
 
 Para usar esse projeto no seu VSCode, basta seguir esse passos:
